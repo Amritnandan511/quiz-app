@@ -1,0 +1,101 @@
+/* index.css */
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #f9fafb;
+  color: #222;
+}
+
+/* Layout */
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+header, footer {
+  background: white;
+  border-bottom: 1px solid #eee;
+  padding: 12px 20px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+/* Buttons */
+button {
+  padding: 10px 18px;
+  margin: 4px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button.primary {
+  background: #2563eb;
+  color: white;
+  border: none;
+}
+
+button.primary:hover {
+  background: #1d4ed8;
+}
+
+button.secondary {
+  background: white;
+  border: 1px solid #ccc;
+}
+
+button.secondary:hover {
+  background: #f3f4f6;
+}
+
+/* Cards */
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 15px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* Progress Bar */
+.progress {
+  background: #e5e7eb;
+  border-radius: 6px;
+  height: 8px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.progress-bar {
+  background: #2563eb;
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+/* Timer */
+.timer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  color: #444;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+tr:nth-child(even) {
+  background: #f9fafb;
+}
+
+
